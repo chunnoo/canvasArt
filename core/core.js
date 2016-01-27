@@ -169,6 +169,7 @@ Core.prototype = {
       this.fps = 1/this.deltaTime;
     
       //this is where i would clear the frame, but the default lighting automatically does that.
+      this.clearFrame;
       
       this.context.save();
       this.context.translate(this.canvas.width/2 - this.screen.x, this.canvas.height/2 - this.screen.y);
